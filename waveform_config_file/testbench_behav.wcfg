@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="88222fs"></ZoomEndTime>
+      <Cursor1Time time="2669fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="logic" fp_name="/testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/data_in">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/uut/system/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/uut/system/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench/uut/system/current_state">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/uut/system/addr_out">
+      <obj_property name="ElementShortName">addr_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/uut/memory/MEM">
+      <obj_property name="ElementShortName">MEM[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/uut/system/data_from_memory">
+      <obj_property name="ElementShortName">data_from_memory[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_from_memory[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/uut/system/current_max">
+      <obj_property name="ElementShortName">current_max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">current_max[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/pool_output">
+      <obj_property name="ElementShortName">pool_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pool_output[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/stop">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/uut/pool_is_ready">
+      <obj_property name="ElementShortName">pool_is_ready</obj_property>
+      <obj_property name="ObjectShortName">pool_is_ready</obj_property>
+   </wvobject>
+</wave_config>
